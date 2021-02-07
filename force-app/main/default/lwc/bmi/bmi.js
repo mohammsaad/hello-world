@@ -11,6 +11,7 @@ export default class Bmi extends LightningElement {
     onheightchange(event){
         this.height=parseFloat(event.target.value);
     }
+    
     calculatebmi(){
         this.bmi=(this.weight)/(this.height*this.height);
     }
