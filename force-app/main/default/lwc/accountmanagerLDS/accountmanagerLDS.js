@@ -14,7 +14,7 @@ export default class AccountmanagerLDS extends LightningElement {
     accountPhoneChangeHandler(event){
         this.accountPhone=event.target.value;
     }
-    accountWebsiteChandler(event){
+    accountWebsiteChangeHandler(event){
         this.accountWebsite=event.target.value;
     }
     createAccount(){
